@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*HEADER*/
+
+.headerTop {
+  height: 300px;
+  background-image: url(../assets/design1_image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: #fbe32c;
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+.headerBottom {
+  background-color: black;
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+h2.center {
+
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  margin-left: 2rem;
+}
+
+.imagenLogo {
+  top: 276px;
+  width: 100px;
+  position: absolute;
+  right: 20%;
+}
+
+/*INDEX*/
+
+.mainIndex {
+  padding: 20px;
+  padding-left: 200px;
+}
+
+.sidebar {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(65, 65, 65, 1) 80%);
+  color: #fff;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #ce0000
+}
+
+nav {
+  float: left;
+  height: 100vh;
+  display: block;
+}
+
+a {
+  padding: 20px;
+  display: block;
+  margin: 30px;
+}
+
+article {
+  display: column;
+  margin: 30px;
+}
+
+#sangria {
+  text-indent: 40px;
+}
+
+#mailto {
+  padding: 0px;
+  display: inline;
+  margin: 0px;
+}
+
+#game_info-p {
+  text-decoration: underline;
+  font-style: oblique;
+}
+
+#game_info-section {
+  margin: 30px;
+}
+
+
+table {
+  margin: 2rem;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  width: 10%;
+  border: solid black 1px;
+  text-align: center;
+  padding: 5px;
+}
+
+th {
+  background-color: #fbe32c;
+}
+
+
+tr:nth-child(even) {
+  background: #ddd
+}
+
+tr:nth-child(odd) {
+  background: #fff
+}
+
+.contact {
+  margin-top: 8rem;
+}
+
+#right-mail {
+  float: right;
+  margin-top: -2rem;
+}
+
+#concat-section p {
+  margin: 20px;
+}
+
+ol>li {
+  list-style-position: inside;
+  margin-bottom: 5px;
+  line-height: 1;
+  margin: 20px 0px 20px 20px;
+}
+
+#listLetter {
+  list-style-type: lower-latin;
+  margin: 10px 0px 10px 10px;
+}
+
+ul>li {
+  list-style-position: inside;
+  list-style-type: circle;
+  margin-left: 200px;
+}
+
+.rules-title {
+  text-align: center;
+}
