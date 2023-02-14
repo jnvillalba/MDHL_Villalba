@@ -91,6 +91,26 @@ article {
   margin: 30px;
 }
 
+.home-article{
+  border: solid #000;
+  display: flex;
+  background-color: gainsboro;
+  width: 700px;
+  height: 100px;
+  
+}
+.home-article h3{
+  margin-left: 10px;
+}
+
+.home-article p{
+  margin-top: 35px;
+  margin-left: -60px;
+}
+
+
+
+
 #sangria {
   text-indent: 40px;
 }
