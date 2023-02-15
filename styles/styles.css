@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+body {
+  --stripe: #dbd5aa;
+  --bg: #e1e1e1;
+
+  background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+    linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: var(--stripe);
+}
+
 /*HEADER*/
 
 .headerTop {
@@ -26,26 +38,23 @@ h1 {
   margin-top: 5px;
   width: 100%;
   height: 50px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
 }
 
 h2.center {
-
   color: white;
   font-size: 30px;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-  width: 80%;
-  margin-left: 2rem;
+  padding-left: 30%;
 }
 
 .imagenLogo {
-  top: 276px;
-  width: 100px;
-  position: absolute;
-  right: 20%;
+  display: flex;
+  height: 100px;
 }
+
 
 /*INDEX*/
 
@@ -76,7 +85,7 @@ h2.center {
 
 nav {
   float: left;
-  height: 100vh;
+  height: 70vw;
   display: block;
 }
 
@@ -97,6 +106,8 @@ article {
   background-color: gainsboro;
   width: 800px;
   height: 100px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #000;
 }
 
 .home-article h3 {
@@ -158,12 +169,11 @@ tr:nth-child(odd) {
 
 .contact {
   margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-#right-mail {
-  float: right;
-  margin-top: -2rem;
-}
+
 
 #concat-section p {
   margin: 20px;
@@ -184,7 +194,7 @@ ol>li {
 ul>li {
   list-style-position: inside;
   list-style-type: circle;
-  margin-left: 200px;
+  margin-left: 50px;
 }
 
 .rules-title {
