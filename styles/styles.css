@@ -7,7 +7,6 @@
 body {
   --stripe: #dbd5aa;
   --bg: #e1e1e1;
-
   background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
     linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
     linear-gradient(315deg, var(--bg) 25%, transparent 25%),
@@ -85,7 +84,7 @@ h2.center {
 
 nav {
   float: left;
-  height: 70vw;
+  height: 100%;
   display: block;
 }
 
@@ -199,4 +198,49 @@ ul>li {
 
 .rules-title {
   text-align: center;
+}
+
+.space-b{
+  display: flex;
+  justify-content: space-between;
+}
+
+#label-input_R{
+  margin-right: 30%;
+}
+
+label,input{
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+form{
+  padding-left: 200px;
+}
+
+fieldset{
+  background-color: #ddd;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+#permission{
+  margin: 5px;
+}
+
+ @media (max-width:426px){
+  nav{
+    width: 30%;
+    
+  }
+  a {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;;
+    margin-left: 10px;
+  }
+  form {
+    padding-left: 35%;
+}
 }
