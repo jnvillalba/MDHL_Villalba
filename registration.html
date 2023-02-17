@@ -32,7 +32,7 @@
       <a href="./rules.html">Rules</a>
       <a href="#">Registration</a>
     </nav>
-
+    <main class="mainIndex">
     <h2 align="center">Registration Form</h2>
 
     <form class="form" action="./show_data.html">
@@ -55,7 +55,7 @@
 
         <div class="space-b">
           <div id="label-input-L">
-            <label for="City">City:<input type="text" name="City" /></label>
+            <label for="City" id="city">City:<input type="text" name="City" /></label>
           </div>
           <div id="label-input_R">
             <label for="Zip_code"
@@ -69,7 +69,7 @@
               >Birth Date(mm/dd/yyyy): <input type="date" name="Birth_date"
             /></label>
           </div>
-          <div id="label-input_R">
+          <div id="label-input_R"">
             <label for="Gender"
               >Gender:
 
@@ -84,7 +84,7 @@
             </label>
           </div>
         </div>
-        <div>
+        <div id="grade">
           <label for="Grade"
             >Grade:
             <input type="checkbox" name="Grade" value="Pre-School" />
@@ -143,7 +143,7 @@
       <div class="field-title">
         <h3>What position(s) do you normally play? (check all that apply):</h3>
       </div>
-      <fieldset>
+      <fieldset id="positions">
         <input type="checkbox" value="Forward" name="Position" />
         <label>Forward</label>
         <input type="checkbox" value="Midfield" name="Position" />
@@ -157,7 +157,7 @@
       <div class="field-title">
         <h3>Uniform Size:</h3>
       </div>
-      <fieldset>
+      <fieldset id="size">
         <input type="checkbox" value="Youth_Smal" name="Uniform_Size" />
         <label>Youth Small</label>
         <input type="checkbox" value="Medium" name="Uniform_Size" />
@@ -206,7 +206,9 @@
 
         <label for="date">Date: <input type="date" name="date" " /></label>
       </fieldset>
-      <input class="nav-btn" type="submit" value="Submit" />
+      <button class="nav-btn" type="submit" value="Submit" >Submit
+      </button>
     </form>
+    </main>
   </body>
 </html>
